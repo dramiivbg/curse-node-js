@@ -1,4 +1,4 @@
-import { MovieModels } from "../models/movie.js";
+import { MovieModels } from "../models/local-file-system/movie.js";
 import { validateMovie, validateMoviePatch } from '../schemas/movies.js';
 
 export class MovieController {
